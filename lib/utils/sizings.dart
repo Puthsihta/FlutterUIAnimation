@@ -26,3 +26,8 @@ Widget kh10Spacer() => const SizedBox(height: 10);
 Widget khSpacer(double height) => SizedBox(height: height);
 
 Widget kwSpacer(double width) => SizedBox(width: width);
+
+class Sizing {
+  static double width(context) => MediaQuery.of(context).size.width;
+  static double height(context) => MediaQuery.of(context).size.height;
+}

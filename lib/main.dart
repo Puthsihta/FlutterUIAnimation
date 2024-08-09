@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_aninmation_ui/screens/nike_shop/nike_shop_screen.dart';
 // import 'package:flutter_aninmation_ui/screens/home/home_screen.dart';
-import 'package:flutter_aninmation_ui/screens/onboarding/onboarding_screen.dart';
+// import 'package:flutter_aninmation_ui/screens/onboarding/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: const OnBoardingScreen(),
+      // home: const OnBoardingScreen(),
+      home: const NickeShopScreen(),
     );
   }
 }
