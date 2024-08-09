@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_aninmation_ui/routes/router.dart';
-import 'package:flutter_aninmation_ui/screens/detail_screen.dart';
+import 'package:flutter_aninmation_ui/screens/home/detail_screen.dart';
 import 'package:flutter_aninmation_ui/utils/sizings.dart';
 
 class HomeScreen extends StatefulWidget {
