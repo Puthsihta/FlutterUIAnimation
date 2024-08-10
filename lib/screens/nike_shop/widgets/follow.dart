@@ -37,7 +37,7 @@ class Follow extends StatelessWidget {
         onPressed: () => Helper.navigate(link.url),
         label: Text(link.title,
             style: const TextStyle(color: AppColors.black, fontSize: 12)),
-        icon: SvgPicture.asset("assets/icons/${link.icon}.svg"),
+        icon: SvgPicture.asset("assets/svgs/${link.icon}.svg"),
       ),
     );
   }

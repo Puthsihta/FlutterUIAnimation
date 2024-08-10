@@ -25,4 +25,6 @@ class AppColors {
   static const gray = Color(0xFF5B5B5F);
   static const bgOrange = Color(0xFFDFA342);
   static const bgGreen = Color(0xFF9FBE59);
+  static const blue = Color(0xFF19C4EA);
+  static const primary = Color(0xFFF3E3DA);
 }
