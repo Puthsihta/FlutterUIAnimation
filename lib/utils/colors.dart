@@ -12,6 +12,7 @@ class AppColors {
   static const bGreen = Color(0xFF105C5C);
   static const lightGreen = Color(0xFF1EA9A9);
 
+  static const ratingRed = Color(0xFFFC7359);
   static const bgRed = Color(0xFF410100);
   static const lightRed = Color(0xFFA10200);
 
@@ -22,4 +23,6 @@ class AppColors {
   static const black = Color(0xff000000);
   static const bg = Color(0xFFE3E3E3);
   static const gray = Color(0xFF5B5B5F);
+  static const bgOrange = Color(0xFFDFA342);
+  static const bgGreen = Color(0xFF9FBE59);
 }

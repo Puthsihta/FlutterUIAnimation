@@ -6,6 +6,10 @@ class AppSizing {
   static bool isMobile(context) => width(context) < 480;
   static bool isTablet(context) => width(context) > 480 && width(context) < 895;
   static bool isDesktop(context) => width(context) > 895;
+  static SizedBox kh10(BuildContext context) => const SizedBox(height: 10);
+  static SizedBox khSpacer(double height) => SizedBox(height: height);
+  static SizedBox kh20(BuildContext context) => const SizedBox(height: 20);
+  static SizedBox kw20(BuildContext context) => const SizedBox(width: 20);
 }
 
 EdgeInsetsGeometry kAppPadding() => const EdgeInsets.symmetric(horizontal: 20);

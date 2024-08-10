@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_aninmation_ui/screens/nike_shop/nike_shop_screen.dart';
+// import 'package:flutter_aninmation_ui/screens/nike_shop/nike_shop_screen.dart';
+import 'package:flutter_aninmation_ui/screens/reviews/review_feedback_screen.dart';
 // import 'package:flutter_aninmation_ui/screens/home/home_screen.dart';
 // import 'package:flutter_aninmation_ui/screens/onboarding/onboarding_screen.dart';
 
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: HomeScreen(),
       // home: const OnBoardingScreen(),
-      home: const NickeShopScreen(),
+      // home: const NickeShopScreen(),
+      home: const ReviewFeedbackScreen(),
     );
   }
 }
