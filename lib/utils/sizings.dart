@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class AppSizing {
   static double width(context) => MediaQuery.of(context).size.width;
   static double height(context) => MediaQuery.of(context).size.height;
+  static top(context) => MediaQuery.viewPaddingOf(context).top;
   static bool isMobile(context) => width(context) < 480;
   static bool isTablet(context) => width(context) > 480 && width(context) < 895;
   static bool isDesktop(context) => width(context) > 895;
@@ -11,6 +12,14 @@ class AppSizing {
   static SizedBox khSpacer(double height) => SizedBox(height: height);
   static SizedBox kh20(BuildContext context) => const SizedBox(height: 20);
   static SizedBox kw20(BuildContext context) => const SizedBox(width: 20);
+  static k5(context) =>
+      SizedBox(height: MediaQuery.of(context).size.height * 0.005);
+  static k10(context) =>
+      SizedBox(height: MediaQuery.of(context).size.height * 0.01);
+  static k20(context) =>
+      SizedBox(height: MediaQuery.of(context).size.height * 0.03);
+  static k30(context) =>
+      SizedBox(height: MediaQuery.of(context).size.height * 0.06);
 }
 
 EdgeInsetsGeometry kAppPadding() => const EdgeInsets.symmetric(horizontal: 20);
