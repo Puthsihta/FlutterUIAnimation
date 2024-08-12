@@ -26,12 +26,12 @@ samples, guidance on mobile development, and a full API reference.
   <tr>
     <td>
       <a href="https://github.com/yunweneric/flutter_openUI/tree/authUI02">
-        <img src="./assets/images/showcase_0.png" alt="Image 1" width="1000"/>
+        <img src="./assets/imgs/showcase_0.png" alt="Image 1" width="1000"/>
       </a>
     </td>
      <td>
       <a href="https://github.com/yunweneric/flutter_openUI/tree/authUI01">
-        <img src="./assets/images/showcase_1.png" alt="Image 1" width="1000"/>
+        <img src="./assets/imgs/showcase_1.png" alt="Image 1" width="1000"/>
       </a>
     </td>
    
@@ -39,7 +39,7 @@ samples, guidance on mobile development, and a full API reference.
   </tr>
      <td>
       <a href="https://github.com/yunweneric/flutter_openUI/tree/Onboarding_01">
-        <img src="./assets/images/showcase_2.png" alt="Image 1" width="1000"/>
+        <img src="./assets/imgs/showcase_2.png" alt="Image 1" width="1000"/>
       </a>
     </td>
   <td> </td>

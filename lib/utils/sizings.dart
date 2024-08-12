@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppSizing {
   static double width(context) => MediaQuery.of(context).size.width;
@@ -31,6 +32,9 @@ Widget khSpacer(double height) => SizedBox(height: height);
 
 Widget kwSpacer(double width) => SizedBox(width: width);
 
+SizedBox kMinorSpacer(context) => SizedBox(height: 20.h);
+SizedBox kMajorSpacer(context) => SizedBox(height: 50.h);
+
 class Sizing {
   static double width(context) => MediaQuery.of(context).size.width;
   static double height(context) => MediaQuery.of(context).size.height;
@@ -40,4 +44,27 @@ class Sizing {
       constraints.maxWidth > 470 && constraints.maxWidth < 1200;
   static bool isDesktop(BoxConstraints constraints) =>
       constraints.maxWidth > 1200;
+}
+
+const kmainpadding = EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0);
+
+//--------------------------- screen height & width ----------------------------
+SizedBox majorSpacer(BuildContext context) {
+  return SizedBox(
+    height: screenHeight(context) / 20,
+  );
+}
+
+SizedBox minorSpacer(BuildContext context) {
+  return SizedBox(
+    height: screenHeight(context) / 40,
+  );
+}
+
+double screenHeight(context) {
+  return MediaQuery.of(context).size.height;
+}
+
+double screenWidth(context) {
+  return MediaQuery.of(context).size.width;
 }
