@@ -1,9 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_aninmation_ui/constants/cart_item.dart';
-import 'package:flutter_aninmation_ui/screens/nike_shop/widgets/follow.dart';
-import 'package:flutter_aninmation_ui/utils/colors.dart';
+import 'package:flutter_aninmation_ui/themes/colors.dart';
 import 'package:flutter_aninmation_ui/utils/image_assets.dart';
 import 'package:flutter_aninmation_ui/utils/sizings.dart';
 

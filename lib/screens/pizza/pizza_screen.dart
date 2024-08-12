@@ -4,7 +4,7 @@ import 'package:flutter_aninmation_ui/components/app_clipper.dart';
 import 'package:flutter_aninmation_ui/constants/pizza.dart';
 import 'package:flutter_aninmation_ui/routes/router.dart';
 import 'package:flutter_aninmation_ui/screens/pizza/zoom_screen.dart';
-import 'package:flutter_aninmation_ui/utils/colors.dart';
+import 'package:flutter_aninmation_ui/themes/colors.dart';
 import 'package:flutter_aninmation_ui/utils/sizings.dart';
 import 'package:flutter_svg/svg.dart';
 

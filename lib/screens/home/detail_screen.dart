@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_aninmation_ui/utils/colors.dart';
+import 'package:flutter_aninmation_ui/themes/colors.dart';
 import 'package:flutter_aninmation_ui/utils/sizings.dart';
 
 class TextItem {

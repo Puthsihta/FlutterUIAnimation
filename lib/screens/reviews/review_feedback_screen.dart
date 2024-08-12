@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_aninmation_ui/screens/reviews/widgets/arc.dart';
 import 'package:flutter_aninmation_ui/screens/reviews/widgets/slider.dart';
-import 'package:flutter_aninmation_ui/utils/colors.dart';
+import 'package:flutter_aninmation_ui/themes/colors.dart';
 import 'package:flutter_aninmation_ui/utils/sizings.dart';
 
 class ReviewFeedbackScreen extends StatefulWidget {

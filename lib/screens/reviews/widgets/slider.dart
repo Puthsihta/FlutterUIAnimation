@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_aninmation_ui/utils/colors.dart';
+import 'package:flutter_aninmation_ui/themes/colors.dart';
 import 'package:syncfusion_flutter_sliders/sliders.dart';
 // ignore: depend_on_referenced_packages
 import 'package:syncfusion_flutter_core/theme.dart';
